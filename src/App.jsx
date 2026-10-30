@@ -14,6 +14,8 @@ const SERVICIOS = [
 ];
 
 const FOTOS = [
+  { src: "motorlavado2.jpeg", alt: "limpiza motor antes" },
+  { src: "motorlavado1jpeg", alt: "Limpieza motor despues" },
   { src: "lavado-4.jpeg", alt: "Limpieza de vidrios por dentro" },
   { src: "lavado-5.jpeg", alt: "Auto recién lavado frente al local" },
   { src: "lavado-1.jpeg", alt: "Auto con llantas limpias y brillantes" },
