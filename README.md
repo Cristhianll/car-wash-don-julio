@@ -1,4 +1,4 @@
-# Car Wash Don Julio
+# Car Wash Julio
 
 Sitio informativo hecho con React + Vite.
 

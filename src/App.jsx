@@ -1,6 +1,6 @@
 // ⚠️ Cambia este número por el WhatsApp del dueño (código de Chile 56 + número, sin + ni espacios)
 const WHATSAPP = "56996634125";
-const MENSAJE = "Hola, quiero más información sobre los servicios de Car Wash Don Julio";
+const MENSAJE = "Hola, quiero más información sobre los servicios de Car Wash Julio";
 const WA_LINK = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MENSAJE)}`;
 const DIRECCION = "Domingo Santa María 4271, Renca";
 const MAPA = `https://www.google.com/maps?q=${encodeURIComponent(DIRECCION + ", Chile")}&output=embed`;
@@ -14,7 +14,6 @@ const SERVICIOS = [
 ];
 
 const FOTOS = [
-  { src: "lavado-3.jpeg", alt: "Lavado a presión de un Kia Rio" },
   { src: "lavado-4.jpeg", alt: "Limpieza de vidrios por dentro" },
   { src: "lavado-5.jpeg", alt: "Auto recién lavado frente al local" },
   { src: "lavado-1.jpeg", alt: "Auto con llantas limpias y brillantes" },
@@ -41,7 +40,7 @@ export default function App() {
       </div>
 
       <header className="nav">
-        <a className="logo" href="#inicio" aria-label="Car Wash Don Julio">DJ</a>
+        <a className="logo" href="#inicio" aria-label="Car Wash Julio">CJ</a>
         <nav className="pills" aria-label="Secciones">
           <a className="pill" href="#servicios">Servicios</a>
           <a className="pill" href="#galeria">Galería</a>
@@ -58,7 +57,7 @@ export default function App() {
           <span className="sticker s-ember">Interior</span>
           <span className="sticker s-sun">Motor</span>
           <span className="sticker s-violet">Completo</span>
-          <h1 className="display">Car Wash<br />Don Julio</h1>
+          <h1 className="display">Car Wash<br />Julio</h1>
           <p className="tagline">Lavado de autos en Renca. Simple, completo, de interior y de motor.</p>
           <div className="actions">
             <BotonInfo />
@@ -95,7 +94,7 @@ export default function App() {
           <h2 className="heading">Dónde estamos</h2>
           <p className="tagline">{DIRECCION}</p>
           <div className="map">
-            <iframe title="Mapa de Car Wash Don Julio" src={MAPA} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+            <iframe title="Mapa de Car Wash Julio" src={MAPA} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
           </div>
           <div className="actions">
             <BotonInfo />
@@ -105,7 +104,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <span>Car Wash Don Julio</span>
+        <span>Car Wash Julio</span>
         <span>{DIRECCION}</span>
       </footer>
     </>
